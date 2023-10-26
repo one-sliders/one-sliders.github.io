@@ -32,10 +32,32 @@
         </div>
     </nav>
 
-    <main class="container mt-5">
-        <div class="d-flex justify-content-center">
+    <main class="container" width="70%">
+        <div class="d-flex justify-content-center ">
             <!-- Embed your PowerPoint One-Slider here -->
-            <img src="img/OneSlider.png" width="80%">
+            <div id="carouselExample" class="carousel slide" width="80%">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/OneSlider.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <a href="Olympics/Olympics.html"><img src="Olympics/img/Olympics1.png" class="d-block w-100" alt="..."></a>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Olympics/img/Olympics2.png" class="d-block w-100" alt="...">
+                 
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
         </div>
     </main>
 
